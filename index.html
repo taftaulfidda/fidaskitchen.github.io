@@ -157,8 +157,26 @@
           <div class="copyright text-center my-auto">
               <span>Copyright @Fida's Kitchen est 2018</span>
           </div>
+          <div class='back-to-top'>
+            <svg viewBox="0 0 20 20"><polyline points="4 13 10 7 16 13"></polyline></svg>
+          </div>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+      var backToTop = document.querySelector('.back-to-top');
+
+      window.addEventListener('scroll', () => {
+        if ( this.scrollY >= 400 ) {
+          backToTop.classList.add('show');
+
+          backToTop.addEventListener('click', () => {
+            window.scrollTo({top: 0});
+          })
+        } else {
+          backToTop.classList.remove('show');
+        }
+      });
+    </script>
   </body>
 </html>
