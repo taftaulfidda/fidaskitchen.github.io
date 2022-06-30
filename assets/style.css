@@ -1,0 +1,52 @@
+.navbar {
+    background-color: pink;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.img {
+    height: 30%;
+    width: 30%;
+}
+
+.home {
+    background-color: white;
+    padding-top: 7rem;
+    padding-bottom: 5rem ;
+}
+
+.Profile {
+    background-color: pink;
+    color:black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about {
+    background-color: white;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.offcanvas-body small {
+    background-color: pink;
+}
+
+.Location {
+    background-color: pink;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.Contact {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+footer {
+    background-color: pink;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: black;
+}
